@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "echarts": "registry:dt/echarts#0.0.0+20161005184000",
+    "qrcode": "registry:dt/qrcode#0.0.0+20161105203411",
+    "uuid": "registry:dt/uuid#3.3.0+20160728152600"
+  }
+}

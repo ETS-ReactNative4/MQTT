@@ -1,0 +1,23 @@
+div.vip-info {
+    padding: 10px 5px;
+    font-size:13px;
+}
+div.container {
+    margin: 0 auto;
+    height: auto;
+    background-color: #FFFFCC;
+    margin-top: 4rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 12px;
+    border: 1px solid #FF9900;
+    border-radius: 0.5rem;
+}
+p {
+    margin-bottom: 0;
+}
+p.hotLine {
+    color: #FF9900;
+}
+p.call {
+    margin-bottom: 0.5rem;
+}

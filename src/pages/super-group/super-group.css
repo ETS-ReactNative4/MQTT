@@ -1,0 +1,29 @@
+div.super-group {
+    padding: 10px 5px;
+    font-size:13px;
+}
+p {
+    margin-bottom: 0;
+}
+ul > li {
+    list-style-type: disc;
+    list-style: disc;
+    text-decoration: aqua;
+}
+div.container {
+    font-size: 12px;
+    /* width: 98%; */
+    margin: 0 auto;
+    height: auto;
+    background-color: #FFFFCC;
+    margin-top: 3rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #FF9900;
+    border-radius: 0.5rem;
+}
+p.hotLine {
+    color: #FF9900;
+}
+p.call {
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,52 @@
+.today-price-page-series{
+    width: 100%;
+    overflow: hidden;
+}
+
+.today-price-page-series .select-list{
+    width: 140px;
+    float: left;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.today-price-page-series .select-list .cateList li{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.today-price-page-series .series-list {
+    margin-left: 152px;
+}
+
+.today-price-page-series .series-list .series li {
+    border-bottom: 1px solid #f1f1f1;
+    height: 64px;
+    line-height: 64px;
+    position: relative;
+    padding-right: 16px;
+}
+
+.today-price-page-series .series-list .series li .warpper {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+.today-price-page-series .series-list .series li .warpper span {
+    display: inline-block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+}
+
+.today-price-page-series .series-list .series li .icon-right {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}

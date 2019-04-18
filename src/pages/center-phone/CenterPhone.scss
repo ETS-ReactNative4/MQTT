@@ -1,0 +1,30 @@
+@import "../../assets/css/shared.scss";
+
+.center-phone-page {
+  background-color: $white;
+
+  .form-header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .ant-form {
+    .btn-verify {
+      width: 100%;
+    }
+
+    .delete-content {
+      cursor: pointer;
+      opacity: .2;
+      transition: opacity .3s;
+    }
+
+    .delete-content:hover {
+      opacity: .8;
+    }
+
+    .form-submit {
+      width: 100%;
+    }
+  }
+}

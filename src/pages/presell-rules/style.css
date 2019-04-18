@@ -1,0 +1,27 @@
+.presell-rules {
+  padding: 1.8em 2em 0;
+}
+
+.presell-rules li {
+  margin-top: 1em;
+}
+
+.presell-rules ul {
+  counter-reset: num;
+}
+
+.presell-rules li::before {
+  content: counter(num) '、';
+  counter-increment: num;
+}
+
+.presell-rules footer {
+  margin-top: 4em;
+  border: 1px solid #FEDE55;
+  border-radius: 4px;
+  background-color: #FEFFCD;
+}
+
+.presell-rules footer .hotline {
+  color: #FFA72A;
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  html body {
+    background-color: #ffffff;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: .045em;
+    overflow-x: hidden; }
+  html ul, html li, html ol {
+    list-style: none;
+    margin-bottom: 0; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix :after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+i.anticon-phone {
+  transform: rotateY(180deg); }
+
+.component-user-state {
+  right: 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+  .component-user-state .relative {
+    font-size: 1.2em;
+    font-weight: 400;
+    display: flex;
+    align-items: center; }
+    .component-user-state .relative .phone {
+      white-space: nowrap; }
+    .component-user-state .relative .user-name {
+      font-size: 0.8em;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center; }
+      .component-user-state .relative .user-name > * {
+        flex-shrink: 0;
+        flex-grow: 0; }
+    .component-user-state .relative .identify {
+      font-size: 0.8rem; }
+    .component-user-state .relative .identify.linkable {
+      cursor: pointer; }
+
+.user-state-menu-item {
+  font-size: 0.8rem; }
+
+  @media screen and (max-width: 768px) {
+    .component-user-state img,.component-user-state .phone{
+      display: none
+    }
+    .component-user-state{
+      right: 5%;
+    }
+    
+  }
+  .ant-dropdown-menu-item:hover {
+    background-color: #e6f7ff;
+    }
+    .ant-dropdown-menu-item-selected,
+.ant-dropdown-menu-item-selected:hover {
+  background-color: #e6f7ff;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-dropdown-menu-item-active {
+  background-color: #e6f7ff;
+}

@@ -1,0 +1,29 @@
+.custom_dev_page .custom_dev_list{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+.custom_dev_page .custom_dev_list::-webkit-scrollbar {
+    display: none;
+}
+.custom_dev_page .custom_dev_list .custom_dev_li{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 114px;
+    height: 114px;
+    max-width: 114px;
+    max-height: 114px;
+    display: inline-block;
+    background-color: #4bbdcc;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+.custom_dev_page .custom_dev_list .custom_dev_li img{
+    width: 114px;
+    height: 114px;
+}
+.custom_dev_page .custom_dev_list .custom_dev_li video{
+    width: 114px;
+    height: 114px;
+}

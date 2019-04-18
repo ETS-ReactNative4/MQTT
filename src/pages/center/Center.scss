@@ -1,0 +1,39 @@
+@import "../../assets/css/shared.scss";
+
+$paddingHorizontal: 10%;
+$bgc: #F5F5F5;
+
+.center-page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: $bgc;
+
+  .center-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    padding-left: $paddingHorizontal;
+    padding-right: $paddingHorizontal;
+
+    .ant-menu {
+      margin-right: 8px;
+      flex-shrink: 0;
+      width: 182.5px;
+      border-right-width: 0 !important;
+    }
+
+    > :nth-child(2) {
+      flex-grow: 1;
+    }
+  }
+
+  .ant-menu-submenu-title {
+    > i {
+      display: none;
+    }
+
+    cursor: default;
+    margin-bottom: 0;
+  }
+}

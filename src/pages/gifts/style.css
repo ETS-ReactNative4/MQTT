@@ -1,0 +1,191 @@
+.get-gift-page {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.get-gift-page .use {
+    font-size: 13px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #D0021B;
+    border-radius: 20px;
+    padding: 2px 12px;
+    position: absolute;
+    right: 5%;
+    top: 16px;
+    outline: none;
+}
+
+.get-gift-page .success {
+    background-color: #fff;
+    font-size: 12px;
+    color: #000;
+    padding: 12px 8px;
+    border-radius: 4px;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.get-gift-page .tel,.get-gift-page .get,.get-gift-page .download,.get-gift-page .code {
+    background-color: #fff;
+    font-size: 22px;
+    color: #000;
+    padding: 7px 16px;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.get-gift-page .tel {
+    height: 48px;
+    padding: 0;
+}
+.get-gift-page .tel input {
+    background-color: transparent;
+    padding-left: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 48px;
+    text-align: left;
+    width: 50%;
+}
+
+.get-gift-page .code {
+    margin-top: 4px;
+    height: 48px;
+    padding: 0;
+}
+.get-gift-page .code input {
+    background-color: transparent;
+    width: 80%;
+    padding-left: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 48px;
+    text-align: left;
+}
+
+.get-gift-page .tel button {
+    outline: none;
+    font-size: 18px;
+    border: none;
+    background-color: #FFDD20;
+    border-radius: 30px;
+    padding: 7px 16px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.get-gift-page .get{
+    background-color: #FFDD20;
+    color: #FA5800;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.get-gift-page .download {
+    text-align: center;
+    background-color: transparent;
+    width: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+.get-gift-page .got {
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gifts-modal {
+    position: relative;
+}
+
+.gifts-modal .ant-modal-header {
+    background: linear-gradient(90deg, #FF5527 6%, #D93E39 96%);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.gifts-modal .ant-modal-title {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.gifts-modal p {
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.gifts-modal button {
+    background: linear-gradient(90deg, #FF5527 6%, #D93E39 96%);
+    padding: 6px 28px;
+    margin-top: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+
+}
+.gifts-modal .ant-modal-close {
+    display: none;
+}
+.gifts-modal .ant-modal-body {
+    text-align: center;
+}
+
+.gift-list-page .header {
+    background: linear-gradient(90deg, #FF5527 6%, #D93E39 96%);
+}
+.gift-list-page .header div {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+    height: 40px;
+}
+.gift-list-page .header button {
+    font-size: 13px;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0;
+    margin-top: 12px;
+    padding: 2px 4px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+}

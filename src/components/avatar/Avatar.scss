@@ -1,0 +1,71 @@
+@import "../../assets/css/shared.scss";
+
+$avatarSize: 100px;
+$avatarLong: 140px;
+.component-avatar {
+  position: relative;
+  font-size: 0.9em;
+
+  .delete-container {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+
+    opacity: .5;
+    transition: opacity .3s;
+
+    background-color: black;
+    $size: 25px;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+
+    .delete-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      color: $white;
+    }
+  }
+
+  .delete-container:hover {
+    opacity: .8;
+  }
+}
+
+.component-avatar.square-true {
+  width: $avatarSize;
+  height: $avatarSize;
+
+  .avatar-uploader {
+    > .ant-upload {
+      width: $avatarSize;
+      height: $avatarSize;
+    }
+
+    img {
+      width: $avatarSize;
+      height: $avatarSize;
+    }
+  }
+}
+
+.component-avatar.square-false {
+  width: $avatarLong;
+  height: $avatarSize;
+
+  .avatar-uploader {
+    > .ant-upload {
+      width: $avatarLong;
+      height: $avatarSize;
+    }
+
+    img {
+      width: $avatarLong;
+      height: $avatarSize;
+    }
+  }
+}

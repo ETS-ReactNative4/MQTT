@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+html, body {
+    height: 100%;
+    width: 100%; 
+    color: #111111;
+}
+.mall_goods .ant-tabs-nav{
+    display:block;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;  
+    top:0;
+    z-index: 9999999;
+    color: #111111;
+}
+.mall_goods .ant-tabs-nav-container{
+    font-size: 16px;
+}
+.nowColor{
+    color: #111111;
+}
+.mall_goods .ant-tabs-ink-bar{
+    background-color: #4DBECD;
+    left: 25%;
+    width: 25% !important;
+}
+.mall_goods .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active{
+    color: #4DBECD;
+}
+.ant-card-body{
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+.dangerouslySetInnerHTML-params p,  .dangerouslySetInnerHTML-params p{
+    margin: 0;
+    padding: 0;
+}
+.dangerouslySetInnerHTML-params img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+p.vipinfo {
+    background-color:#FFF1F4;
+    height:36px;
+    line-height:36px;
+    font-size:12px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+p.GoodsSeriesParams {
+    color:#A1A1A1;
+    border-bottom:1px solid #F2F2F2;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+    /* height: 36px;
+    line-height: 36px; */
+    /* display: flex;
+    -webkit-display:flex;
+    justify-content: space-around; */
+}
+.ant-carousel {
+    height: 215px;
+    overflow: hidden;
+}
+.ant-carousel .slick-slide {
+    text-align: center;
+    background: #FFF;
+    /* padding-bottom:20px; */
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .ant-carousel .slick-dots li button, .ant-carousel .slick-dots li.slick-active button {
+      width:10px;
+      height:10px;
+      border-radius:5px;
+      background-color: #C9C9C9;
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+      background-clip: #E4E4E4;
+  }
+  .ant-btn.Standard,  .ant-btn.notStandard{
+      color: #FFF;
+      border: none;
+      padding: 0 4px;
+      height: 16px;
+      /* width: 40px; */
+      font-size: 9px;
+  }
+  .Standard {
+      color: #FFF;
+      display: inline-block;
+      border-radius: 4px;
+      font-size: 10px;
+      margin-right:5px;
+    background-color: #4DBECD;
+}
+.notStandard {
+    color: #FFF;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right:5px;
+    background-color: #FFb717;
+}
+span.GoodsSeriesUnit {
+    color: #c9c9c9;
+    font-size: 12px;
+    margin-left: 10px;
+}
+span.from {
+    display: inline-block;
+    border: 1px solid #4DBECD;
+    width: 16px;
+    /* height: 20px;     */
+    vertical-align: middle;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+span.GoodsSeriesSetNum {
+    color:red;
+}
+span.dot {
+    margin:0 3px;
+}
+.ant-card.GoodsParams {
+    margin-top: 5px;
+    
+}
+.ant-card.GoodsParams .ant-card-head {
+    margin-bottom: 0;
+    padding: 4px 10px;
+    min-height: auto;
+}
+.ant-card.GoodsParams .ant-card-head-title, .ant-card.GoodsParams .ant-card-extra {
+    padding: 4px 0px;
+    font-size: 12px;
+}
+.ant-card.GoodsParams .ant-card-body {
+    background-color: #FFF;
+}
+.ant-card.GoodsParams .ant-card-body li {
+    margin: 5px auto;
+}
+span.ParamName {
+    display: inline-block;
+    min-width: 80px;
+    margin-right: 20px;
+    color: #999;
+}
+.ant-drawer.Params .ant-drawer-header {
+   text-align: center;
+}
+.ant-drawer.Params .ant-drawer-close {
+    display: none;
+}
+.ant-drawer.Params .ant-drawer-body {
+    padding:0;
+}
+p.ParamsList {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 14px;
+    margin-bottom: 0;
+}
+.ant-btn.close {
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background-color: #4DBECD;
+    height: 45px;
+    font-size: 14px;
+}
+.serviceContainer {
+    width:100%;
+    margin-top:5px;
+    background-color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.serviceContainer .anticon-right {
+    float: right;
+    margin-top: 12px;
+}
+p.match {
+    display: inline-block;
+    width: 220px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ant-card.GoodsParams {
+    border: none;
+}
+.ant-col-12 {
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+}
+.ant-col-12.kefu {
+    color: #333;
+    background-color: #DDE3E8;
+}
+.ant-col-12.order {
+    color: #FFF;
+    background-color: #4DBECD;
+}
+span.vipTip {
+    float: right;
+    color: #333;
+    font-size: 8px;
+    display: inline-block;
+    background-color: #FFF1F4;
+    margin-right: 15px;
+    height: 36px;
+    vertical-align: middle;
+    padding: 6px 5px;
+    
+}
+img.vipIcon {
+    width: 19px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right:5px;
+}
+.ant-drawer.GoodsAll .ant-drawer-header {
+    padding: 0;
+    border: none;
+}
+.ant-drawer.GoodsAll .ant-drawer-header .ant-drawer-close {
+    top: 70px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E4E4E4;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body {
+    padding: 0;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body p.bg {
+    background: transparent;
+    height: 60px;
+    /* padding:30px 0; */
+    width: 100%;
+    margin:0;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .ant-row.title_container {
+    background: #FFF;
+    min-height: 70px;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .main_container {
+    background: #FFF;
+    height: 400px;
+    /* padding-top: 10px; */
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .main_container .Params_container {
+    height: 120px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    white-space: normal;
+    padding: 10px 15px;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .main_container p.price, .ant-drawer.GoodsAll  .ant-drawer-body .main_container ul.price, .ant-drawer-body .main_container ul.addService {
+    margin-bottom: 0;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .main_container p.Order_btn {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .main_container p.Order_btn .ant-btn{
+    background-color: #4DBECD;
+    color: #FFF;
+    border: none;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .icon_container {
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+    transform: translateX(15%);
+    background: #FFF;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+}
+.ant-drawer.GoodsAll  .ant-drawer-body .icon_container img {
+    width: 100%
+}
+.ant-drawer-bottom.ant-drawer-open.GoodsAll .ant-drawer-content-wrapper {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.ant-drawer.GoodsAll .ant-drawer-content {
+    background-color: transparent;
+}
+.ant-btn.selectBtn, .ant-btn.addServiceBtn {
+    border: 1px solid #E4E4E4;
+    height: 24px;
+    padding: 0 8px;
+    line-height: 24px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.ant-btn.selectBtn.active {
+    border: 1px solid #4DBECD;
+    color: #4DBECD;
+    background-color: #FFF;
+}
+.ant-btn.selectBtn.disabled {
+    border: 1px solid #E4E4E4;
+    color: #333;
+    opacity: 0.5;
+}
+p.number {
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
+    padding: 10px 0px;
+    border-top: 1px solid #f2f2f2;
+    width: 100%;
+    margin-bottom: 10px;
+}
+span.setNum {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ant-btn.add, .ant-btn.plus {
+    border: none;
+    background-color: transparent;
+    height: 28px;
+    width: 28px;
+}
+.ant-btn.plus {
+    position: absolute;
+    left: 0;
+}
+.ant-btn.add {
+    position: absolute;
+    right: 0;
+}
+.appendix_container p {
+    padding: 0.3rem 0;
+    background-color: #f2f2f2;
+    margin: 0;
+}

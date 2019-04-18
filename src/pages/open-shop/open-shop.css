@@ -1,0 +1,8 @@
+.btn{
+    display:block;
+    margin: 0 auto;
+    background-color: #51bfce;
+    color: aliceblue;
+    padding:5px 20px;
+    border-radius: 5px;
+}

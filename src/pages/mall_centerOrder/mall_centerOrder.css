@@ -1,0 +1,27 @@
+.mall_centerOrder {
+    background-color: #FFF;
+    overflow: scroll;
+}
+.mall_centerOrder .ant-tabs {
+    text-align: center;
+}
+.mall_centerOrder .ant-tabs-bar {
+    margin: 0;
+}
+.mall_centerOrder .ant-tabs-tab {
+    margin:0;
+    padding: 10px 8px;
+}
+.mall_centerOrder .ant-tabs-ink-bar {
+    background-color: #4DBECD;
+}
+.empty {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.empty img {
+    width: 120px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,125 @@
+/* html { overflow-y: scroll; } */
+html{
+    min-height: 100%;
+}
+body{
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
+.bg{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right,#000000,#235a92,#000000);
+}
+.text{
+    text-indent:1vh;
+    color: #57becf;
+    margin: 0;
+    font-size: 14px;
+}
+.show{
+    text-indent:1vh;
+    color: #fffdff;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.tipbottomOne{
+    text-indent:1vh;
+    /* color: #007aff; */
+    line-height: 2vh;
+    font-size: 12px;
+}
+.tiptopOne{
+    text-indent:1vh;
+    /* color: #007aff; */
+    font-size: 1.1rem;
+    margin-top: 4px;
+}
+.tiptopTwo{
+    color: #57becf;
+}
+.tiptopTwos{
+    text-indent:1vh;
+    color: #fffdff;
+    font-size: 1.1rem;
+    margin-left:2vh;
+}
+.tipbottomTwo{
+    text-indent:1vh;
+    color: #fffdff;
+    line-height: 2vh;
+    font-size: 1.4rem;
+    font-family: 'Arial'
+}
+.bs{
+    text-indent:1vh;
+    font-size: 12px;
+    /* color: #57becf; */
+}
+.hui{
+    text-indent:1vh;
+    color: #becc14;
+    margin: 0
+}
+.tips{
+    background-image: url(./show/3.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding: 2%;
+}
+.fenge{
+    margin: 2% 0;
+    width: 100%;
+    height: 3px;
+    background-color: #007aff;
+}
+.bt{
+    background-image: url(./show/4.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+.slick-track{
+    height: 100%;
+}
+
+/*    字体白 */
+/*    字体蓝 */
+/*    字体黄 */
+/* 1ef01b   字体绿 */
+/*   字体橙 */
+
+/* 275590  */
+
+
+.slide_comp{
+    display: inline-block;
+    width: 100%;
+    height: 5em;
+    overflow: hidden;
+    position: relative;
+}
+.slide_comp .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: slide 1s;
+    color: #fff;
+    font-size: 10px;
+}
+
+.slide_comp .slide .ant-row div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@keyframes slide
+{
+from {top: 0;}
+to {top: 50%;}
+}
+

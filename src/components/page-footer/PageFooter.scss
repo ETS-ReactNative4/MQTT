@@ -1,0 +1,22 @@
+@import "../../assets/css/shared.scss";
+
+footer {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  * {
+    color: #888;
+    font-size: .9em;
+  }
+}
+
+footer.reverse {
+  background-color: $white;
+}
+
+footer.normal {
+  background-color: #F5F5F5;
+}

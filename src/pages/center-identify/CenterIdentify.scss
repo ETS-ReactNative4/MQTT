@@ -1,0 +1,129 @@
+@import "../../assets/css/shared.scss";
+
+$avatarSize: 100px;
+$avatarLong: 140px;
+.center-identify-page {
+  background-color: $white;
+  padding-top: 40px;
+
+  .in-progress {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .ant-steps {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: auto;
+      flex-shrink: 0;
+    }
+
+    .ant-form {
+      margin-top: 20px;
+      flex-grow: 1;
+      overflow: auto;
+
+      .btn-verify {
+        width: 100%;
+      }
+
+      .delete-content {
+        cursor: pointer;
+        opacity: .2;
+        transition: opacity .3s;
+      }
+
+      .delete-content:hover {
+        opacity: .8;
+      }
+
+      .form-submit {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .identifier-row {
+        display: flex;
+
+        .identifier-col {
+          margin-right: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          img {
+            width: $avatarLong;
+          }
+        }
+      }
+    }
+
+    .checking-identify, .check-failed {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: auto;
+      margin-top: 30px;
+
+      > * {
+        margin-bottom: 20px;
+      }
+
+      > :first-child {
+        font-size: 1.2em;
+        color: $primaryColor;
+      }
+    }
+
+    .check-failed .error {
+      color: red;
+    }
+  }
+
+  .identified-content {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10%;
+
+    span.title {
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+    }
+
+    .avatar {
+      align-self: center;
+      $avatarSize: 80px;
+      width: $avatarSize;
+      height: $avatarSize;
+      border-radius: 50%;
+    }
+
+    .desc {
+      margin: 20px;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      > * {
+        flex-shrink: 0;
+        flex-grow: 0;
+      }
+
+      > .phone {
+        margin-left: 20px;
+      }
+    }
+
+    > .row {
+      margin-top: 10px;
+    }
+
+    img.identify {
+      width: 140px;
+      height: 100px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}

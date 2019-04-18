@@ -1,0 +1,44 @@
+@import "../../assets/css/shared.scss";
+
+.register-success-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    flex-shrink: 0;
+  }
+
+  .content {
+    flex-grow: 1;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(-40px);
+
+    > * {
+      margin: 6px 0;
+    }
+
+    > .title {
+      font-size: 1.3em;
+      color: $primaryColor;
+    }
+
+    > img {
+      //width: 400px;
+    }
+
+    > .info {
+      font-size: 0.9em;
+    }
+
+    .ant-btn {
+      width: 280px;
+    }
+  }
+}

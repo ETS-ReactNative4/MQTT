@@ -1,0 +1,77 @@
+.mall_confirmOrder p.address {
+    background: linear-gradient(to right,#99CCFE,#99CCCD);
+    height: 41px;
+    line-height: 41px;
+    padding: 0 20px;
+    color: #FFFF00;
+    margin-bottom: 0.5rem;
+}
+.order_container {
+    padding: 10px 15px 0;
+}
+.order_container .title_container .icon_box {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+    border: 1px solid #E4E4E4;
+}
+.order_container .title_container .main_box {
+    /* float: right; */
+    width: 100%;
+}
+.title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.3rem;
+}
+.Standard {
+    color: #FFF;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right:5px;
+  background-color: #4DBECD;
+}
+.notStandard {
+  color: #FFF;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 10px;
+  margin-right:5px;
+  background-color: #FFb717;
+}
+.confirm_container {
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #F2F2F2;
+    width: 100%;
+    line-height: 48px;
+    height: 48px;
+}
+.confirm_container .ant-btn {
+    background-color: #4DBECD;
+    border: none;
+    width: 104px;
+    height: 48px;
+    border-radius: 0;
+    margin-left: 15px;
+}
+p.appendix_brand {
+    margin: 0;
+    padding: 0.3rem 0;
+}
+.mall_confirmOrder .address {
+    background: linear-gradient(to right,#99CCFE,#99CCCD);
+}
+.mall_confirmOrder .address img {
+    margin: 1rem 0.3rem;
+}
+.mall_confirmOrder .address  p {
+    margin: 0.3rem 0.4rem;
+    color: #FFF;
+}

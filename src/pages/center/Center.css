@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  html body {
+    background-color: #ffffff;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: .045em;
+    overflow-x: hidden; }
+  html ul, html li, html ol {
+    list-style: none;
+    margin-bottom: 0; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix :after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+i.anticon-phone {
+  transform: rotateY(180deg); }
+
+.center-page {
+  min-height: 100VH;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #F5F5F5; }
+  .center-page header.header {
+    position: relative;
+    height: 66px;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0; }
+    .center-page header.header img.logo {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      height: 36px;
+      padding-left: 10%; }
+  .center-page .center-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    padding-left: 10%;
+    padding-right: 10%; }
+    .center-page .center-content .ant-menu {
+      margin-right: 8px;
+      flex-shrink: 0;
+      width: 182.5px;
+      border-right-width: 0 !important; }
+    .center-page .center-content > :nth-child(2) {
+      flex-grow: 1; }
+  .center-page .ant-menu-submenu-title {
+    cursor: default;
+    margin-bottom: 0; }
+    .center-page .ant-menu-submenu-title > i {
+      display: none; }
+      .ant-menu-item-selected > a, .ant-menu-item-selected > a:hover {
+        color: #4CBECC;
+      }
+      .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background-color: #f0fffe;
+      }
+      .ant-menu-vertical .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-inline .ant-menu-item:after {
+        border-right: 3px solid #4CBECC;
+      }
+      .ant-btn-primary {
+        background-color: #4CBECC;
+        border: none;
+      }

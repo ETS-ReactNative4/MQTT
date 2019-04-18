@@ -1,0 +1,81 @@
+@import "../../assets/css/shared.scss";
+
+.reset-page {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    $contentSize: 800px;
+    .form-header {
+      width: $contentSize;
+
+      .header {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: right;
+      }
+    }
+
+    .ant-form {
+      width: $contentSize;
+
+      .ant-form-explain {
+        margin-top: 0;
+      }
+
+      .btn-verify {
+        width: 100%;
+      }
+
+      .delete-content {
+        cursor: pointer;
+        opacity: .2;
+        transition: opacity .3s;
+      }
+
+      .delete-content:hover {
+        opacity: .8;
+      }
+
+      .form-submit {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .form-header{display: none}
+      .ant-form {
+        width: 100% !important;
+        padding: 20px;
+        
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .form-container{
+      display: block !important;
+      transform: translateY(0%) translateX(0) !important;
+     }
+   
+  }
+  .success-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 1.4em;
+      color: $primaryColor;
+      margin-top: 40px;
+    }
+
+    > img {
+      //width: 500px;
+    }
+
+    button {
+      width: 200px;
+    }
+  }
+}

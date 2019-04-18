@@ -1,0 +1,127 @@
+@import "../../assets/css/shared.scss";
+
+$borderColor: #E8E8E8;
+.component-series-item {
+  border: 1px solid $borderColor;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  .title {
+    border-bottom: 1px solid $borderColor;
+    padding: 8px 20px;
+  }
+
+  .detail {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+
+    > :first-child {
+      border-left-width: 0;
+    }
+
+    .separator {
+      align-self: stretch;
+      width: 1px;
+      background-color: $borderColor;
+      flex-shrink: 0;
+    }
+
+    .goods {
+      flex-grow: 1;
+
+      > * {
+        border-top: 1px solid $borderColor;
+        flex-shrink: 0;
+      }
+
+      > :first-child {
+        border-top-width: 0;
+      }
+
+      .goods-item {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        > * {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        .pic {
+          width: 40px;
+          height: 40px;
+          margin-left: 10px;
+          display: inline-flex;
+          overflow: hidden;
+          padding-left: 0;
+          padding-right: 0;
+          justify-content: center;
+
+          > img {
+            width: 100%;
+          }
+        }
+
+        .col-1 {
+          width: 40%;
+
+          .desc {
+            font-size: 0.8em;
+            color: gray;
+          }
+        }
+
+        .col-2 {
+          width: 10%;
+          white-space: nowrap;
+        }
+
+        .col-3 {
+          width: 40%;
+
+          .desc {
+            font-size: 0.8em;
+            color: gray;
+          }
+        }
+      }
+    }
+
+    .info {
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-shrink: 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      font-size: .8em;
+      width: 160px;
+    }
+
+    .operation {
+      padding: 10px 20px;
+      flex-shrink: 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 160px;
+
+      .btn-cancel {
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 0.8em;
+        display: none;
+      }
+    }
+  }
+}

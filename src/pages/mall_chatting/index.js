@@ -1,0 +1,1 @@
+export { default } from './mall_chatting';

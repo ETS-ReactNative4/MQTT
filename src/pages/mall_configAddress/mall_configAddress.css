@@ -1,0 +1,42 @@
+.mall_configAddress {
+    overflow-y: scroll;
+}
+.mall_configAddress .img_container {
+    width: 100%;
+    padding-top:100px;
+    text-align: center;
+}
+.mall_configAddress .img_container img {
+    width:120px;
+}
+.mall_configAddress .btn_container {
+    text-align: center;
+    margin-top: 20px;
+}
+.mall_configAddress .btn_container .ant-btn {
+    width: 80%;
+    height:40px;
+    border: none;
+    background-color: #4DBECD;
+    color: #FFF;
+}
+.mall_configAddress .btn_container .ant-btn.addAddress {
+    font-size: 14px;
+}
+.mall_configAddress .address_item {
+    border-bottom: 1px solid #E4E4E4;
+    color: #333;
+    padding: 10px 15px;
+}
+.mall_configAddress .address_item p {
+    margin-bottom: 0;
+}
+.mall_configAddress .address_item p.phone {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.mall_configAddress .address_item .ant-col-2 {
+    text-align: right;
+    padding-top: 15px;
+}

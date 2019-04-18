@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  html body {
+    background-color: #ffffff;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: .045em;
+    overflow-x: hidden; }
+  html ul, html li, html ol {
+    list-style: none;
+    margin-bottom: 0; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix :after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+i.anticon-phone {
+  transform: rotateY(180deg); }
+
+.register-page .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .register-page .form-container .form-header {
+    width: 800px; }
+    .register-page .form-container .form-header .header {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-align: right; }
+  .register-page .form-container .ant-form {
+    width: 800px; }
+    .register-page .form-container .ant-form .ant-form-explain {
+      margin-top: 0; }
+    .register-page .form-container .ant-form .btn-verify {
+      width: 100%; }
+    .register-page .form-container .ant-form .delete-content {
+      cursor: pointer;
+      opacity: .2;
+      transition: opacity .3s; }
+    .register-page .form-container .ant-form .delete-content:hover {
+      opacity: .8; }
+    .register-page .form-container .ant-form .form-footer {
+      font-size: 0.9em;
+      text-align: right;
+      margin-bottom: 20px; }
+    .register-page .form-container .ant-form .form-submit {
+      width: 100%; }
+    .register-page .form-container .ant-form .form-agreement {
+      cursor: pointer;
+      color: #4CBECC; }
+  @media screen and (max-width: 768px) {
+    .register-page .form-container .form-header {
+      display: none; }
+    .register-page .form-container .form-container {
+      display: block !important;
+      transform: translateY(0%) translateX(0) !important; }
+    .register-page .form-container .ant-form {
+      width: 100% !important;
+      padding: 20px; }
+      .register-page .form-container .ant-form .form-footer {
+        text-align: left; } }
+
+@media screen and (max-width: 768px) {
+  .register-page .form-container {
+    display: block !important;
+    transform: translateY(0%) translateX(0) !important; } }

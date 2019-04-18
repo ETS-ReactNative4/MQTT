@@ -1,0 +1,169 @@
+.order_goods_item {
+    padding: 0.7rem 0.6rem 0;
+    
+}
+.order_goods_item .ant-row {
+    /* padding-bottom: 0.7rem; */
+    border-bottom: 1px solid #F2F2F2;
+}
+.order_goods_item .icon_box {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #D7D7D7;
+    overflow: hidden;
+}
+.order_goods_item .main_box {
+    /* float: right; */
+    width: 100%;
+}
+.title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.3rem;
+}
+.Standard {
+    color: #FFF;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right:5px;
+  background-color: #4DBECD;
+}
+.notStandard {
+  color: #FFF;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 10px;
+  margin-right:5px;
+  background-color: #FFb717;
+}
+.order_container p.orderState {
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    background-color: #FAFAFA;
+    color: red;
+    margin-bottom: 0;
+    text-align: right;
+    padding: 0 0.6rem;
+}
+.mall_order_item .summary_container {
+    text-align: right;
+    padding:0.4rem 0.6rem;
+    border-bottom: 1px solid #F2F2F2;
+}
+.mall_order_item .summary_container p  {
+    margin-bottom: 0.3rem;
+}
+.mall_order_item .progressBar_container {
+    padding: 0.8rem 0.6rem;
+}
+.mall_order_item .progressBar_container .progress-bar {
+    float: right;
+    width: 70%;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 20px;
+    color: #fff;
+    position: relative;
+    text-align: left;
+    background-color: #D7D7D7;
+  }
+  .mall_order_item .progressBar_container .progress-bar span {
+    display: inline-block;
+    height: 20px;
+    width: 0%;
+    background-color: #33CCCC;
+    border-radius: 4px;
+  }
+  .mall_order_item .progressBar_container .progress-bar label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    color: #262626;
+  }
+  .mall_order_item .order_info {
+      padding: 0.4rem 0.6rem;
+  }
+  .mall_order_item .order_info_container {
+      border-bottom: 1px solid #F2F2F2;
+  }
+  .mall_order_item .order_info_container p.line {
+      width: 100%;
+      height: 5px;
+      background-color: #EEE;
+      margin:0;
+  }
+  .mall_order_item .order_info p {
+      margin: 0.4rem 0;
+  }
+.mall_order_item .btn_container {
+    padding: 0.6rem 0.6rem;
+    text-align: right;
+    border-bottom: 1px solid #f2f2f2;
+}
+.mall_order_item .btn_container .ant-btn {
+    border: 1px solid #4DBECD;
+    color: #4DBECD;
+    width: 104px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.mall_order_item .btn_container .ant-btn.logistic {
+    border: 1px solid #FFb717;
+    color: #FFb717;
+}
+.ant-drawer.CompanyA_Account .ant-drawer-header {
+    padding: 8px 0;
+    text-align: center;
+}
+.ant-drawer.CompanyA_Account .ant-drawer-header .ant-drawer-close {
+    display: none;
+}
+.ant-drawer.CompanyA_Account .ant-drawer-body {
+    padding: 0px 15px;
+}
+.ant-drawer.CompanyA_Account .ant-drawer-body p {
+    margin: 0;
+    line-height: 46px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.ant-drawer.CompanyA_Account .ant-drawer-body .ant-btn.close {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4DBECD;
+    color: #FFF;
+    font-size: 14px;
+    width: 100%;
+    height: 45px;
+    border: none;
+}
+.mall_OrderDetail {
+    background-color: #FFF;
+    overflow-y: scroll;
+}
+.mall_OrderDetail .address {
+    background: linear-gradient(to right,#99CCFE,#99CCCD);
+}
+.mall_OrderDetail .address img {
+    margin: 1rem 0.3rem;
+}
+.mall_OrderDetail .address  p {
+    margin: 0.3rem 0.4rem;
+    color: #FFF;
+}

@@ -1,0 +1,37 @@
+@import "./reset.scss";
+
+$primaryColor: #4CBECC;
+$accentColor: #ffb717;
+
+$headerHeight: 66px;
+$logoHeight: 36px;
+
+$darkerPrimaryColor: darken($primaryColor, 20%);
+
+$white: #fff;
+
+@mixin verticalMiddleChild {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin verticalMiddleParent {
+  position: relative;
+}
+
+.clearfix {
+  zoom: 1;
+
+  :after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+i.anticon-phone {
+  transform: rotateY(180deg)
+}

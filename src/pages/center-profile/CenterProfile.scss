@@ -1,0 +1,20 @@
+@import "../../assets/css/shared.scss";
+
+.center-profile-page {
+  background-color: $white;
+  padding-top: 40px;
+
+  .delete-content {
+    cursor: pointer;
+    opacity: .2;
+    transition: opacity .3s;
+  }
+
+  .delete-content:hover {
+    opacity: .8;
+  }
+
+  .form-submit {
+    width: 100%;
+  }
+}

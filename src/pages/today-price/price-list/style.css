@@ -1,0 +1,12 @@
+.today-price-page-price table td, .today-price-page-price table th {
+    width: 25%;
+}
+
+.today-price-page-price table .td-params {
+    width: 50%;
+}
+
+.today-price-page-price .search {
+    margin: 16px;
+    text-align: right;
+}

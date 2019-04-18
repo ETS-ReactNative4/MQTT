@@ -1,0 +1,19 @@
+.footer-red{
+    background-color: #FAF1ED;
+    border: 1px solid #FBE4ED;
+    text-align: center;
+    margin: 10px;
+    /* height: 40px; */
+    line-height: 40px;
+  }
+  .footer-red label{
+    width: 20px;
+    height: 20px;
+    background: #EA5F79;
+    border-radius: 50%;
+    color: white;
+    line-height: 22px;
+    /* margin-bottom: -86px; */
+    display: inline-block;
+    vertical-align: middle;
+  }

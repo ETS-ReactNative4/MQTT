@@ -1,0 +1,45 @@
+@import "../../assets/css/shared.scss";
+
+$intentHorizontal: 10%;
+
+.component-user-state {
+  right: $intentHorizontal;
+  @include verticalMiddleChild;
+
+  .relative {
+    font-size: 1.2em;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+
+    .phone {
+      white-space: nowrap;
+    }
+
+    .user-name {
+      font-size: 0.8em;
+      cursor: pointer;
+
+      display: inline-flex;
+      align-items: center;
+
+      > * {
+        flex-shrink: 0;
+        flex-grow: 0;
+      }
+    }
+
+    .identify {
+      font-size: 0.8rem;
+    }
+
+    .identify.linkable {
+      cursor: pointer;
+    }
+  }
+}
+
+.user-state-menu-item {
+  font-size: 0.8rem;
+}

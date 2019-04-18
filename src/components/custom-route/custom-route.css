@@ -1,0 +1,9 @@
+.back_index {
+    position: fixed;
+    top: 330px;
+    right: 20px;
+    z-index: 9999;
+}
+.back_index img {
+    width: 66px;
+}

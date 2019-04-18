@@ -1,0 +1,20 @@
+.bor{
+    background-color: rgb(243, 243, 243);
+}
+.bor-tom{
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+.one{
+    color: #4bbdcc;
+    background-color: #fff;
+}
+.ant-tabs-ink-bar{
+    background-color:  #4bbdcc;
+}
+.ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-nav .ant-tabs-tab:hover{
+    color: #4bbdcc;
+}
+.ant-tabs-bar{
+    margin:0;
+}

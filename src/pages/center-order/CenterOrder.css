@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  html body {
+    background-color: #ffffff;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: .045em;
+    overflow-x: hidden; }
+  html ul, html li, html ol {
+    list-style: none;
+    margin-bottom: 0; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix :after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+i.anticon-phone {
+  transform: rotateY(180deg); }
+
+.center-order-page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+  .center-order-page > .personal-info {
+    flex-shrink: 0;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px; }
+    .center-order-page > .personal-info .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; }
+    .center-order-page > .personal-info .description {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px; }
+      .center-order-page > .personal-info .description :first-child {
+        margin-bottom: 4px; }
+  .center-order-page > .order-list {
+    flex-grow: 1;
+    margin-top: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
+    .center-order-page > .order-list .ant-tabs {
+      flex-shrink: 0; }
+    .center-order-page > .order-list .items {
+      flex-grow: 1;
+      overflow: auto; }
+    .center-order-page > .order-list .ant-pagination {
+      flex-shrink: 0;
+      text-align: right;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right: 20px; }
+    .center-order-page > .order-list .empty {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      flex-grow: 1; }
+  .center-order-page > .identify-notice {
+    flex-grow: 1;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .center-order-page > .identify-notice > img {
+      margin: 20px; }
+    .center-order-page > .identify-notice .hint {
+      margin-bottom: 20px; }
+    .center-order-page > .identify-notice button {
+      margin: 0 10px 20px; }

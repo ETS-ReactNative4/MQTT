@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="emake Team" />
+  <meta name="copyright" content="emake" />
+  <meta name="Keywords" content="易智造,变压器,非晶干变,非晶油变,断路器,开关柜" />
+  <meta name="Description" content="易智造是B2M云工厂平台，由109家智能工厂构成行业制造能力最强的输配电云工厂。提供变压器、断路器、开关柜等16大品类产品，基本涵盖10KV~400V 的大部分产品。下载易智造APP，云工厂即刻成为您的自有工厂，平台采用类似滴滴的补贴模式，由平台补贴工厂利润，用户获得工厂成本的高品质产品。易智造平台为您的每笔订单提供充足 保障，平台产品质保1年，用户可选购中国人保的产品质量保险，产品1年内出现质量问题，人保可赔付90%；平台提供专业第3方售后服务，实现全国范围内1小时响应、8小时达到现场。">
+  <meta name="renderer" content="webkit" />
+  <meta name="baidu-site-verification" content="wlZlEv8WaQ" />
+  <title>易智造云工厂-您的自有工厂,获得工厂成本的高品质产品</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <title></title>
+  <script type="text/javascript" src="./jmessage-sdk-web-2.6.0/jmessage-sdk-web.2.6.0.min.js"></script>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <!-- <script type="text/javascript" src="./jmessage-sdk-web-2.6.0/jmessage-sdk-web.2.6.0.min.js"></script> -->
+  <script>
+    if(!window.localStorage){
+      window.localStorage = {getItem: console.log, setItem: console.log}
+    }
+    getHeader = (obj) => {
+      if (window.location.href.indexOf('mallIndex')!== -1) {
+        sessionStorage.setItem('Access_token', obj['access_token']);
+        sessionStorage.setItem('Refresh_token', obj['refresh_token']);
+      }
+      // alert(obj.access_token);
+    }
+    getHeaderIOS = (obj) => {
+      if (window.location.href.indexOf('mallIndex')!== -1) {
+        sessionStorage.setItem('Access_token', obj['access_token']);
+        sessionStorage.setItem('Refresh_token', obj['refresh_token']);
+      }
+    }
+    window.onload = () => {
+      // console.log(window);
+    }
+
+  </script>
+  <div id="root" style="height: 100%;"></div>
+  
+</body>
+
+</html>

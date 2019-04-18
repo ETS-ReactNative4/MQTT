@@ -1,0 +1,95 @@
+html{
+    font-size:13px;
+    font-size:1.3rem;
+}
+.city-agent {
+    text-align: center;
+}
+.scratch-area {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-bottom: 45px;
+}
+span.guajiang {
+    position: absolute;
+    font-size:1.4rem;
+    /* top: 10; */
+    left: 10vw;
+    width: 85vw;
+    text-align: right;
+    padding-right: 15px;
+    line-height: 2.5rem;
+    /* line-height: 1.9; */
+    color: #FFF;
+}
+span.tipMsg {
+    position: absolute;
+    font-size: 0.7rem;
+    left: 9vw;
+    /* top: 10vw; */
+    width: 85vw;
+    text-align: left;
+    padding-right: 15px;
+    line-height: 2.5rem;
+    color: #FFF;
+}
+button.scratch-btn {
+    font-size: 0.7rem;
+    /* width: 7rem; */
+    padding:0.3rem 1.1rem;
+    color: #FFF;
+    background-color: #333366;
+    border-radius: 4px;
+    border: none;
+    margin-top:10%;
+}
+p.tip {
+    font-size:0.8rem;
+    color: #FFF;
+    margin-bottom: 0.1rem;
+}
+p.grey {
+    color: #999;
+    font-size:0.7rem;
+    text-align: left;
+}
+.ant-col-14 {
+    padding: 0.1rem;
+}
+span.get {
+    border: 1px solid #F8695D;
+    width:100%;
+    margin:0 auto;
+    display:inline-block;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+    color:#F8695D;
+    border-radius: 0.5rem;
+}
+button.copy {
+    border:none;
+    height:2rem;
+    width:4rem;
+    color: #FFF;
+    background-color: #F8695D;
+    float: right;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.msg {
+    position: absolute;
+    top: 35px;
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+}
+.msg p {
+    margin-bottom: 0;
+}
+.msg p span.max {
+    font-size: 38px;
+    margin:0 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
